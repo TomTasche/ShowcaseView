@@ -82,8 +82,9 @@ public class ShowcaseView extends RelativeLayout
         final TypedArray styled = context.getTheme()
                 .obtainStyledAttributes(attrs, R.styleable.ShowcaseView, R.attr.showcaseViewStyle,
                         R.style.ShowcaseView);
-        backColor = styled
-                .getInt(R.styleable.ShowcaseView_sv_backgroundColor, Color.argb(128, 80, 80, 80));
+//        backColor = styled
+//                .getInt(R.styleable.ShowcaseView_sv_backgroundColor, Color.argb(128, 80, 80, 80));
+        backColor = Color.argb(235, 0, 0, 0);
         mShowcaseColor = styled
                 .getColor(R.styleable.ShowcaseView_sv_showcaseColor, Color.parseColor("#33B5E5"));
 
